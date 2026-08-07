@@ -2,7 +2,7 @@ package com.main;
 
 public class WordCount {
 	 public static void main(String args[]){
-	  String s1="I am currently working";
+	  String s1="I am currently working with strings";
 	  int count = 1;
 	  int n=0;
 	   while(n<s1.length()){
