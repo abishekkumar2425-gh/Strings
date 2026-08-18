@@ -1,5 +1,4 @@
 package com.main;
-import java.util.Scanner;
 public class vowelscons {
 	private static boolean chvow(char v) {
 		if(v=='a' || v=='e' || v=='i' || v=='o' || v=='u') {
@@ -11,9 +10,7 @@ public class vowelscons {
 	}		
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter a string");
-		String str = sc.nextLine();
+		String str ="nation";
 		String strfi; char c = str.charAt(0);		
 		
 		if(chvow(c)) {
@@ -35,7 +32,6 @@ public class vowelscons {
 				}
 			}
 		}
-	   sc.close();
        System.out.println(strfi);
        
 	}
