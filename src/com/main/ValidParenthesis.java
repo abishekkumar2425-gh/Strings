@@ -3,7 +3,7 @@ import java.util.*;
 public class ValidParenthesis {
 
 	public static void main(String[] args) {
-		String str = "({[]})";
+		String str = "({[]}";
 		char top = 0;
 		Deque<Character> Stack = new ArrayDeque<>();
 		for(char c: str.toCharArray()) {
