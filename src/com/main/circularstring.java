@@ -2,7 +2,7 @@ package com.main;
 public class circularstring {
 
 	public static void main(String[] args) {
-		String str1 = "ABCD";
+		String str1 = "ABC";
 		String str2 = "CDAB";
 		String str3 = str1+str1;
 		if(str3.contains(str2)) {
